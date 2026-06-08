@@ -5,14 +5,11 @@ keep_vars = true
 
 [observability]
 enabled = true
-
-
 [observability.logs]
 enabled = true
 invocation_logs = true
-
 [observability.traces]
-enabled = false
+enabled = true
 
 
 #[[d1_databases]]
